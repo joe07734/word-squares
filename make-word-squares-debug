@@ -1,0 +1,3 @@
+#!/bin/sh
+gcc -g -c word-squares.c
+gcc -o word-squares-debug word-squares.o libmapm-universal.a -lm
